@@ -29,7 +29,7 @@ public class Join extends Activity {
         btnRegistration=(Button)findViewById(R.id.jRegistration);
         btnMain=(Button)findViewById(R.id.jMainBtn);
         myHelper=new myDBHelper(this);
-//등록버튼을 누르면 1건의 레코드 정보가 저장
+//등록버튼을 누르면 1건의 레코드 정보가 저장d
 
 
 
