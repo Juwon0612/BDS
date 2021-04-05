@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edtId"
+        android:hint="회원가입한 ID를 입력하세요"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edtPw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="회원가입한 PW를 입력하세요"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" LOGIN "
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        android:id="@+id/btnJoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>

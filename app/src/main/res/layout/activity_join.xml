@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Join"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/jId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="가입할 ID 입력"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/jPw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="가입할 패스워드 입력 "
+        android:password="true"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/jRegistration"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#95EAC2"
+            android:text=" JOIN "
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/jMainBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:background="#51C891"
+            android:text=" Main "
+            android:textSize="30sp" />
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
